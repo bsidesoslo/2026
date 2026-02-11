@@ -1,0 +1,57 @@
+
+# Base information
+# The information about the conference, location, etc
+title: BSides Oslo 2026
+email: info@bsidesoslo.no
+description: October 29th at Vulkan Arena
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+conference:
+  location: Vulkan Arena
+  date: 2026-10-29
+
+# Social media links
+socials:
+- title: YouTube
+  icon: youtube
+  url: https://www.youtube.com/bsidesoslo
+- title: Mastodon
+  icon: mastodon
+  url: https://infosec.exchange/@bsidesoslo
+- title: Bluesky
+  icon: bluesky
+  url: https://bsky.app/profile/bsidesoslo.no
+- title: LinkedIn
+  icon: linkedin
+  url: https://www.linkedin.com/company/bsidesoslo
+- title: Twitter
+  icon: twitter
+  url: https://twitter.com/oslobsides
+- title: Email
+  icon: envelope
+  url: mailto:info@bsidesoslo.no 
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+
+exclude:
+   - .sass-cache/
+   - .jekyll-cache/
+   - .devcontainer/
+   - .gitignore
+   - gemfiles/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - LICENSE
+   - README.md
+   - CNAME

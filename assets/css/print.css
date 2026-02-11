@@ -1,0 +1,9 @@
+#logo-container, #social-media{
+    visibility: hidden !important;
+    height: 0px;
+}
+
+#content {
+    width: 100%;
+}
+

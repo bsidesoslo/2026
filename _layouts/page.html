@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+    <body>
+        
+        <div id="main-container">
+            <div id="content">
+                <div class="text-content">
+                    {{content}}
+                </div>
+            <div class="page-metadata">
+                <p>
+                {%- if page.version %}
+                Version: {{page.version}}<br/>
+                {%- endif %}
+                {%- if page.date %}
+                Updated: {{page.date}}
+                {%- endif %}
+                </p>
+            </div>
+            </div>
+            
+            <div id="logo-container" class="lower">
+                <a href="/"><img class="logo bottom" src="/assets/images/BSides_logo.png" alt="BSides Logo" /></a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,129 @@
+:root {
+    --base-color: purple;
+}
+
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: var(--base-color);
+    font-family: Verdana, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo-container{
+    background-color: var(--base-color);
+    min-height: 20vh;
+}
+
+p a, p a:hover, p a:active {
+    color: var(--base-color);
+}
+
+p a:hover{
+    font-weight: bold;
+}
+
+@media screen and (width >= 1000px) {
+#main-container{
+    max-width: 50%;    
+}
+
+.logo {
+    width: 40%;
+}
+
+#social-media .social{
+    width: 2em;
+    height: 2em;
+}
+}
+
+
+
+@media screen and (width >= 400px) and (width < 1000px) {
+#main-container{
+    max-width: 80%;    
+}
+
+
+
+.logo {
+    width: 60%;
+}
+
+.bottom{
+    width: 20% !important; 
+}
+
+#social-media .social{
+    width: 1.5em;
+    height: 1.5em;
+}
+}
+
+@media screen and (width < 400px) {
+#main-container{
+    max-width: 90%;
+}
+
+.logo {
+    width: 80%;
+}
+
+#social-media .social{
+    width: 1em;
+    height: 1em;
+}
+
+}
+
+#main-container{
+    margin: 0 auto;
+}
+
+#logo-container{
+    min-height: 20vh;
+}
+
+#logo-container.lower{
+    margin-top: 1em;
+}
+#content{
+    min-height: 80vh;
+    background-color: white;
+    padding: 2em;
+}
+
+.text-content {
+    text-align: left;
+}
+
+#social-media {
+    width: 100%;
+}
+
+#social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+#social-media li {
+    display: inline;
+}
+
+#social-media .social{
+    width: 2em;
+    height: 2em;
+}
+
+.page-metadata{
+    text-align: right;
+    font-style: italic;
+}

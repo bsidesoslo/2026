@@ -1,0 +1,8 @@
+    <head>
+        <title>{{ site.title }} | {{ site.conference.date | date: "%B %dth %Y" }} at {{ site.conference.location }}</title>
+        <link rel="stylesheet" href="/assets/css/temporary.css" media="screen" />
+        <link rel="stylesheet" href="/assets/css/print.css" media="print" />
+        <meta property="og:name" content="{{site.title}}{%if page.layout == 'page' %} | {{ page.title }}{% endif %}" />
+        <meta property="og:description" content="{{ site.description }}" />
+        <meta property="og:image" content="https://bsidesoslo.no/assets/images/BSides_logo.png" />
+    </head>

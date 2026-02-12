@@ -6,6 +6,6 @@ BSides Oslo is an independent, community-driven inclusive information and cyber 
 
 The first Security BSides Oslo event was held in 2019. The 2026 conference will be our seventh (sixth in-person) event. Websites for previous events are available [here](https://archive.bsidesoslo.no/).
 
-The event is completley community-driven by [volunteers](/volunteers). All talks at our conferences are recorded and available on [YouTube](https://youtube.com/bsidesoslo).
+The event is completely community-driven by [volunteers](/volunteers). All talks at our conferences are recorded and available on [YouTube](https://youtube.com/bsidesoslo).
 
 BSides Oslo is a non-profit conference, and if you would like to sponsor or have any questions, reach out to our [sponsor manager](mailto:sponsors@bsidesoslo.no)!

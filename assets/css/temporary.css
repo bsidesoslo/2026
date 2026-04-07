@@ -127,3 +127,25 @@ p a:hover{
     text-align: right;
     font-style: italic;
 }
+
+/* Tickets */
+
+#tickets{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#tickets .button, #tickets .button a:active, #tickets .button a:hover{
+    background-color: var(--base-color);
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 15px;
+    font-size: 3em;
+}
+
+#tickets p{
+    margin-top: 1.5em;
+    font-weight: bold;
+    font-size: 1.5em;
+}

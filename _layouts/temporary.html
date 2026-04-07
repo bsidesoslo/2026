@@ -10,22 +10,11 @@
             <div id="content">
                 <h1>{{ site.title }}</h1>
                 <h2>{{ site.conference.date | date: "%B %dth %Y" }} at {{ site.conference.location }}</h2>
-                <div id="social-media">
-                    <ul>
-                        {% for entry in site.socials %}
-                        <li>
-                            <a href="{{entry.url}}" title="{{entry.title}}">
-                                <svg class="social" >
-                                    <use xlink:href="/assets/icons.svg#{{entry.icon}}" />
-                                </svg>
-                            </a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
+                {% include tickets.html %}
                 <div class="text-content">
                     {{content}}
                 </div>
+                {% include socials.html %}
             </div>
         </div>
     </body>

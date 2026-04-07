@@ -1,0 +1,13 @@
+<div id="social-media">
+    <ul>
+        {% for entry in site.socials %}
+        <li>
+            <a href="{{entry.url}}" title="{{entry.title}}">
+                <svg class="social" >
+                    <use xlink:href="/assets/icons.svg#{{entry.icon}}" />
+                </svg>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

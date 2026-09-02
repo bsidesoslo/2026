@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+    <body>  
+        <div id="main-container">
+            <div id="content" class="left-align">
+                <div class="text-content">
+                    <h1>{{page.title}}</h1>
+                    {{content}}
+                </div>
+                <div id="speakers">
+                {%- for speaker in page.speakers %}
+                  <div class="speaker">
+                    <h2>{{speaker.name}}</h2>
+                    <ul>
+                    {%- for social in speaker.socials %}
+                      <li>
+                          <a href="{{social.url}}">
+                          <svg class="social" >
+                          <use xlink:href="/assets/icons.svg#{{social.type}}" />
+                          </svg>
+                      </a>
+                    {%- endfor %}
+                    </ul>
+                    <div class="bio">
+                      <div>
+                        <img src="/assets/images/speakers/{{speaker.image}}" alt="{{speaker.name}}" />
+                      </div>
+                      <div>
+                        <p>{{speaker.bio | markdownify}}</p>
+                      </div>
+                    </div>
+                </div>
+                {%- endfor %}
+          </div>
+      </div>
+            
+            <div id="logo-container" class="logo-talk lower">
+                <a href="/"><img class="logo bottom" src="/assets/images/bsides-logo.png" alt="BSides Logo" /></a>
+            </div>
+        </div>
+    </body>
+</html>

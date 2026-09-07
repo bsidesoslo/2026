@@ -7,7 +7,9 @@ speakers:
   -  name: Cim Stordal 
      image: CimStordal.png
      bio: |
-       Cim likes phones, bugs and AI.
+       Cim has been breaking software since his early teens, on both the offensive and defensive sides. He has competed at Pwn2Own and holds CVEs in browsers and kernels. 
+       
+       For the past eight years his day job has been building machine learning systems across computer vision, natural language, and time series. When not in front of a terminal, he's usually jumping out of a plane.
      socials:
        - type: twitter
          url: https://x.com/Cim_Stordal

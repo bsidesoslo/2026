@@ -16,4 +16,4 @@ speakers:
 ---
 What tools and tricks are criminals using to carry out celebrity imposter fraud? Go undercover with a cyber journalist to see how a real case plays out, with the attacker deploying audio, video and image deepfakes, as well as potent social engineering techniques.
 
-See why cyber fraud in the age of AI is so powerful, stealing billions from victims each year, combining technology and psychology for maximum impact. How can we defend against these kinds of attacks as deepfakes become more and more realistic and undetectable? We'll examine the best strategies and techniques for 2026 and beyond.al.
+See why cyber fraud in the age of AI is so powerful, stealing billions from victims each year, combining technology and psychology for maximum impact. How can we defend against these kinds of attacks as deepfakes become more and more realistic and undetectable? We'll examine the best strategies and techniques for 2026 and beyond.

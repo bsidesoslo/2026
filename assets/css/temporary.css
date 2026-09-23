@@ -234,3 +234,50 @@ ul.talk-information{
   height: 1.5em;
   padding-left: 0.1em;
 }
+
+/* Sponsors */
+
+#sponsors div {
+  align-self: center;
+  justify-self: center;
+}
+
+#sponsors img {
+  aspect-ratio: auto;
+  padding: 0.5em;
+  max-width: 90%;
+}
+
+#sponsors .platinum {
+  display: inline-grid;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+}
+
+#sponsors .gold {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+#sponsors .silver {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#sponsors .community {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+#sponsors .community div{
+    justify-content: center;
+}
+
+@media screen and (width < 400px) {
+
+#sponsors .community {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,15 @@
+  <div id="sponsors">
+    <h2>Sponsors</h2>
+    {%- for level in site.data.sponsors %}
+      {%- if level[1].size > 0 %}
+      <h3>{{ level[0] | capitalize }}</h3>
+      
+      <div class="{{level[0]}}">
+        {%- for sponsor in level[1] %}
+          <div><a href="{{sponsor.url}}"><img alt="{{ sponsor.name }}" src="{{ sponsor.logo | prepend: "/assets/images/sponsors/" }}"/></a></div>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+    {%- endfor %}
+    <p>BSides Oslo is a non-profit conference, and relies on sponsorships. If you or your company wish to support the event by sponsoring, please read our <a href="/pages/SponsorPrimer">sponsorship primer</a>.</p>
+  </div>

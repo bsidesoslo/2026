@@ -6,4 +6,10 @@ gold:
     name: Mnemonic
     url: https://www.mnemonic.io/
 silver:
+ - logo: advisense.png
+   name: Advisense
+   url: https://advisense.com
+ - logo: aikido.png
+   name: Aikido
+   url: https://aikido.dev
 community:

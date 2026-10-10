@@ -29,6 +29,7 @@ p a:hover{
     font-weight: bold;
 }
 
+
 /* Tickets */
 
 #tickets{
@@ -50,69 +51,9 @@ p a:hover{
     font-size: 1.5em;
 }
 
-@media screen and (width >= 1000px) {
-#main-container{
-    max-width: 50%;    
-}
-
-.logo {
-    width: 40%;
-}
-
-#social-media .social{
-    width: 2em;
-    height: 2em;
-}
-
-#tickets .button, #tickets .button a:active, #tickets .button a:hover {
-    font-size: 3em;
-}
-}
-
-@media screen and (width >= 400px) and (width < 1000px) {
-#main-container{
-    max-width: 80%;    
-}
-
-.logo {
-    width: 60%;
-}
-
-.bottom{
-    width: 20% !important; 
-}
-
-#social-media .social{
-    width: 1.5em;
-    height: 1.5em;
-}
-#tickets .button, #tickets .button a:active, #tickets .button a:hover {
-    font-size: 2em;
-}
-}
-
-@media screen and (width < 400px) {
-#main-container{
-    max-width: 90%;
-}
-
-.logo {
-    width: 80%;
-}
-
-#social-media .social{
-    width: 1em;
-    height: 1em;
-}
-
-#tickets .button, #tickets .button a:active, #tickets .button a:hover {
-    font-size: 2em;
-}
-}
-
-
 #main-container{
     margin: 0 auto;
+    max-width: 80%;  
 }
 
 
@@ -156,6 +97,20 @@ p a:hover{
 
 #social-media svg{
     fill: var(--base-color);
+}
+
+
+footer .left {
+  text-align: left;
+}
+
+footer .right{
+  text-align: right;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .page-metadata{
@@ -237,47 +192,87 @@ ul.talk-information{
 
 /* Sponsors */
 
-#sponsors div {
-  align-self: center;
-  justify-self: center;
+#sponsors > div {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 #sponsors img {
   aspect-ratio: auto;
-  padding: 0.5em;
-  max-width: 90%;
+  width: 100%;
 }
 
-#sponsors .platinum {
-  display: inline-grid;
-  grid-template-columns: repeat(1, 1fr);
-  text-align: center;
+#sponsors > div > div {
+  margin: 1rem;
 }
 
-#sponsors .gold {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
+#sponsors .platinum > div {
+  width: 50%;
 }
 
-#sponsors .silver {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+#sponsors .gold > div {
+  width: 35%;
 }
 
-#sponsors .community {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
+#sponsors .silver > div {
+  width: 25%;
 }
 
-#sponsors .community div{
-    justify-content: center;
+#sponsors .community > div{
+  width: 15%;
 }
 
-@media screen and (width < 400px) {
+@media screen and (width >= 1000px) {
 
-#sponsors .community {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
+.logo {
+    width: 40%;
+}
+
+#social-media .social{
+    width: 2em;
+    height: 2em;
+}
+
+#tickets .button, #tickets .button a:active, #tickets .button a:hover {
+    font-size: 3em;
+}
+}
+
+@media screen and (width >= 600px) and (width < 1000px) {
+
+.logo {
+    width: 60%;
+}
+
+.bottom{
+    width: 20% !important; 
+}
+
+#social-media .social{
+    width: 1.5em;
+    height: 1.5em;
+}
+#tickets .button, #tickets .button a:active, #tickets .button a:hover {
+    font-size: 2em;
+}
+}
+
+@media screen and (width < 600px) {
+#main-container{
+    max-width: 90%;
+}
+
+.logo {
+    width: 80%;
+}
+
+#social-media .social{
+    width: 1em;
+    height: 1em;
+}
+
+#tickets .button, #tickets .button a:active, #tickets .button a:hover {
+    font-size: 2em;
+}
 }

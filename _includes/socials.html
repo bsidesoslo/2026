@@ -1,13 +1,21 @@
-<div id="social-media">
-    <ul>
-        {% for entry in site.socials %}
-        <li>
-            <a href="{{entry.url}}" title="{{entry.title}}">
-                <svg class="social" >
-                    <use xlink:href="/assets/icons.svg#{{entry.icon}}" />
-                </svg>
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
+<footer>
+    <div class="credits left">
+        <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> BSides Oslo 2026.</p>
+    </div>
+    <div id="social-media">
+        <ul>
+            {% for entry in site.socials %}
+            <li>
+                <a href="{{entry.url}}" title="{{entry.title}}">
+                    <svg class="social" >
+                        <use xlink:href="/assets/icons.svg#{{entry.icon}}" />
+                    </svg>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+     <div class="credits right">
+        <p><a href="/CODE_OF_CONDUCT.html">Code of Conduct</a></p>
+    </div>
+</footer>

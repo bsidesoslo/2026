@@ -12,4 +12,7 @@ silver:
  - logo: advisense.png
    name: Advisense
    url: https://advisense.com
+ - logo: nightshift.png
+   name: Night Shift
+   url: https://nightshift.technology
 community:
